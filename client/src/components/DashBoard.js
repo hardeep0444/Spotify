@@ -94,8 +94,8 @@ function DashBoard({ code }) {
       <div className="flex-grow-1 my-2" style={{ overflowY: "auto" }}>
         {searchResults.map((track) => (
           <TrackSearchResults
-            key={track.uri}
             track={track}
+            key={track.uri}
             chooseTrack={chooseTrack}
           />
         ))}
